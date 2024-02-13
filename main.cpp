@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <string>
+#include "addContact.hpp"
 #include "addContact.cpp"
 #include "updateContact.cpp"
 #include "viewContact.cpp"
@@ -8,10 +9,8 @@
 
 using namespace std;
 
-//Global vairables
-    unordered_map<string,string> personalInfo;
-    string data;
-    string title[4]={"Name", "Phone number", "email address", "RelevantDetails"};
+string title[4]={"Name", "Phone number", "email address", "RelevantDetails"};
+
 
 int main(){
 
